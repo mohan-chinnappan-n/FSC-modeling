@@ -7,7 +7,7 @@
 ![Wrapper edit](img/fsc-wrapper-edit-1.png)
 
 ## Demo
-- [Trust modeling](img/trust-ac-2.gif)
+- ![Trust modeling](img/trust-ac-2.gif)
 
 ## Resources
 - [Enable the Custom Metadata Types for Expanded Account-Account Relationships](https://developer.salesforce.com/docs/atlas.en-us.financial_services_cloud_admin_guide.meta/financial_services_cloud_admin_guide/fsc_enable_metadata_aar.htm)
