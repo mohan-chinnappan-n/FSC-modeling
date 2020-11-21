@@ -1,9 +1,17 @@
 # Demo showing how to model Trust Accounts in Household
 
 ## Setup
+
 - Enable the Custom Metadata Types for Expanded Account-Account Relationships
 ![Custom metadata type setting](img/fsc-metadata-1.png)
+
+- Account RecordType **Trust**
+![Trust RecordType](img/trust-record-type.png)
+
+- Trust
 ![Modeled Trust](img/fsc-trust-model-1.png)
+
+- Household holding the trust
 ![Wrapper edit](img/fsc-wrapper-edit-1.png)
 
 ## Demo
