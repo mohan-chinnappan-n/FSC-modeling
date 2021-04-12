@@ -8,7 +8,7 @@
 
 ## Data Model
 
-- [dataModel](img/ActionPlan.csv)
+- [Data Model -  Fields](img/ActionPlan.csv)
 - ![daamodel SVG](img/ActionPlan.svg)
 
 
