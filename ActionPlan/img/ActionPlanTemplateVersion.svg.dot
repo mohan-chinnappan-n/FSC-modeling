@@ -18,13 +18,16 @@
             ];  
             edge [ arrowsize="0.8"   ];
         
-            ActionPlanTemplateVersion [shape=none, margin=0, label=<
+            ActionPlanTemplate [shape=none, margin=0, label=<
                 <table border="1" cellborder="1" cellspacing="0" bgcolor="#ffeeff" >   
-                  <tr><td colspan="3" bgcolor="lightblue"><b>ActionPlanTemplateVersion</b></td></tr>
+                  <tr><td colspan="3" bgcolor="lightblue"><b>ActionPlanTemplate</b></td></tr>
              <tr>
                                         <td  bgcolor="#99ccff" port="Id" align="left">
                                            <b>Id</b>
                                         </td><td>id(18)</td></tr> <tr>
+                                         <td port="OwnerId" align="left">
+                                         OwnerId
+                                       </td><td>reference(18)</td></tr> <tr>
                                          <td port="IsDeleted" align="left">
                                          IsDeleted
                                        </td><td>boolean</td></tr> <tr>
@@ -40,28 +43,52 @@
                                          <td port="LastReferencedDate" align="left">
                                          LastReferencedDate
                                        </td><td>datetime</td></tr> <tr>
-                                         <td port="ActionPlanTemplateId" align="left">
-                                         ActionPlanTemplateId
-                                       </td><td>reference(18)</td></tr> <tr>
-                                         <td port="Version" align="left">
-                                         Version
-                                       </td><td>int</td></tr> <tr>
-                                         <td port="Status" align="left">
-                                         Status
+                                         <td port="ActionPlanType" align="left">
+                                         ActionPlanType
                                        </td><td>picklist(255)</td></tr> <tr>
-                                         <td port="ActivationDateTime" align="left">
-                                         ActivationDateTime
-                                       </td><td>datetime</td></tr> <tr>
-                                         <td port="InactivationDateTime" align="left">
-                                         InactivationDateTime
-                                       </td><td>datetime</td></tr>            
+                                         <td port="TargetEntityType" align="left">
+                                         TargetEntityType
+                                       </td><td>picklist(255)</td></tr> <tr>
+                                         <td port="Description" align="left">
+                                         Description
+                                       </td><td>textarea(255)</td></tr> <tr>
+                                         <td port="UniqueName" align="left">
+                                         UniqueName
+                                       </td><td>string(80)</td></tr> <tr>
+                                         <td port="IsAdHocItemCreationEnabled" align="left">
+                                         IsAdHocItemCreationEnabled
+                                       </td><td>boolean</td></tr>            
                 </table>
                 >
                   URL="#"
-                  tooltip=" ActionPlanTemplateVersion "
+                  tooltip=" ActionPlanTemplate "
                 ];
             
-                            "ActionPlanTemplateVersion" : "LastModifiedById": w -> 
+                            "ActionPlanTemplate" : "OwnerId": w -> 
+                                  "Group" : "Id" 
+                                           : e 
+                                          [arrowhead=none 
+                                           dir=back 
+                                           arrowtail=crowodot 
+                                           color="#ff99cc"
+                                           label="Owner"
+                                           fontname="Monaco"
+                                           fontsize="9"
+                                          ];
+                      
+                            "ActionPlanTemplate" : "OwnerId": w -> 
+                                  "User" : "Id" 
+                                           : e 
+                                          [arrowhead=none 
+                                           dir=back 
+                                           arrowtail=crowodot 
+                                           color="#ff99cc"
+                                           label="Owner"
+                                           fontname="Monaco"
+                                           fontsize="9"
+                                          ];
+                      
+                            "ActionPlanTemplate" : "LastModifiedById": w -> 
                                   "User" : "Id" 
                                            : e 
                                           [arrowhead=none 
@@ -69,18 +96,6 @@
                                            arrowtail=crowodot 
                                            color="#ff99cc"
                                            label="LastModifiedBy"
-                                           fontname="Monaco"
-                                           fontsize="9"
-                                          ];
-                      
-                            "ActionPlanTemplateVersion" : "ActionPlanTemplateId": w -> 
-                                  "ActionPlanTemplate" : "Id" 
-                                           : e 
-                                          [arrowhead=none 
-                                           dir=back 
-                                           arrowtail=crowodot 
-                                           color="#ff99cc"
-                                           label="ActionPlanTemplate"
                                            fontname="Monaco"
                                            fontsize="9"
                                           ];
