@@ -1,0 +1,12 @@
+SELECT 
+Id,
+Name,
+TargetId,
+ActionPlanTemplateVersionId,
+ActionPlanType,
+ActionPlanState,
+StartDate,
+IsUsingHolidayHours
+
+FROM 
+ActionPlan

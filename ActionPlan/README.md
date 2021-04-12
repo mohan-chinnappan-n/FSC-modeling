@@ -8,10 +8,13 @@
 
 ## Data Model
 
-- [Data Model -  Fields](img/ActionPlan.csv)
+- [Data Model - ActionPlan -  Fields](img/ActionPlan.csv)
+- [Data Model - ActionPlanTemplateVersion - (img/ActionPlanTemplateVersion)
 
 - ERD
     - ![daamodel SVG](img/ActionPlan.svg)
+    - ![daamodel SVG template version](img/ActionPlanTemplateVersion.svg)
+
 
 - Task list 
     - ![Tasks relation](https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/action-plans-in-financial-services-cloud/learn-about-action-plans/images/d19aaa4fb102afb1e418a1b9a24ab845_5-d-3730-be-726-b-4-ae-0-a-023-fcbba-6716-d-7-e.png)
