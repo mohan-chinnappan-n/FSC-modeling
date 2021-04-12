@@ -8,11 +8,9 @@
 
 ## Data Model
 
-- [Data Model - ActionPlan -  Fields](img/ActionPlan.csv)
-- [Data Model - ActionPlanTemplateVersion - (img/ActionPlanTemplateVersion)
+- [Data Model - ActionPlanTemplateVersion - (img/ActionPlanTemplateVersion.csv)
 
 - ERD
-    - ![daamodel SVG](img/ActionPlan.svg)
     - ![daamodel SVG template version](img/ActionPlanTemplateVersion.svg)
 
 
