@@ -9,7 +9,9 @@
 ## Data Model
 
 - [Data Model -  Fields](img/ActionPlan.csv)
-- ![daamodel SVG](img/ActionPlan.svg)
+
+- ERD
+    - ![daamodel SVG](img/ActionPlan.svg)
 
 
 ## References
