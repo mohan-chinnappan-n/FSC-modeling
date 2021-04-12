@@ -8,8 +8,8 @@
 
 ## Data Model
 
-- [Data Model - ActionPlan] - (img/ActionPlan.csv)
-- [Data Model - ActionPlanTemplateVersion] - (img/ActionPlanTemplateVersion.csv)
+- [Data Model - ActionPlan](img/ActionPlan.csv)
+- [Data Model - ActionPlanTemplateVersion](img/ActionPlanTemplateVersion.csv)
 
 - ERD
     - ![datamodel SVG ](img/ActionPlan.svg)
