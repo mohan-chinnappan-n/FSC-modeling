@@ -8,10 +8,12 @@
 
 ## Data Model
 
-- [Data Model - ActionPlanTemplateVersion - (img/ActionPlanTemplateVersion.csv)
+- [Data Model - ActionPlan] - (img/ActionPlan.csv)
+- [Data Model - ActionPlanTemplateVersion] - (img/ActionPlanTemplateVersion.csv)
 
 - ERD
-    - ![daamodel SVG template version](img/ActionPlanTemplateVersion.svg)
+    - ![datamodel SVG ](img/ActionPlan.svg)
+    - ![datamodel SVG template version](img/ActionPlanTemplateVersion.svg)
 
 
 - Task list 
