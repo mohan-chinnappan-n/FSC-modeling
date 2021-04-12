@@ -1,0 +1,16 @@
+"sobjectName","sobjectLabel","name","label","type","length","nillable","referenceTo","relationshipName","unique","updateable","inlineHelpText","picklistValues","externalId"
+"ActionPlanTemplateVersion","Action Plan Template Version","Id","Action Plan Template Version ID","id",18,false,"[]",,false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","IsDeleted","Deleted","boolean",0,false,"[]",,false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","Name","Version Name","string",255,false,"[]",,false,true,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","CreatedDate","Created Date","datetime",0,false,"[]",,false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","CreatedById","Created By ID","reference",18,false,"[""User""]","CreatedBy",false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","LastModifiedDate","Last Modified Date","datetime",0,false,"[]",,false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","LastModifiedById","Last Modified By ID","reference",18,false,"[""User""]","LastModifiedBy",false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","SystemModstamp","System Modstamp","datetime",0,false,"[]",,false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","LastViewedDate","Last Viewed Date","datetime",0,true,"[]",,false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","LastReferencedDate","Last Referenced Date","datetime",0,true,"[]",,false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","ActionPlanTemplateId","Action Plan Template ID","reference",18,false,"[""ActionPlanTemplate""]","ActionPlanTemplate",false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","Version","Version Number","int",0,false,"[]",,false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","Status","Status","picklist",255,false,"[]",,false,true,,"[""Draft"",""Obsolete"",""Published"",""ReadOnly""]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","ActivationDateTime","Activation Date","datetime",0,true,"[]",,false,false,,"[]",false
+"ActionPlanTemplateVersion","Action Plan Template Version","InactivationDateTime","Inactivation Date","datetime",0,true,"[]",,false,false,,"[]",false
