@@ -5,7 +5,6 @@
 - [Data Model](#model)
 - [References](#ref)
 
-
 ## Data Model
 
 - [Fields - ActionPlan](img/ActionPlan.csv)
