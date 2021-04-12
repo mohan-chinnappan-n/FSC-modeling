@@ -13,7 +13,7 @@
 
 - ERD
     - ![datamodel SVG ](img/ActionPlan.svg)
-    - <img src="img/ActionPlanTemplateVersion.svg" width="1200">
+    - <img src="img/ActionPlanTemplateVersion.svg" width="100%">
 
 
 - Task list 
